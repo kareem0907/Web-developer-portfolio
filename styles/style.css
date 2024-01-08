@@ -72,9 +72,9 @@ color: #474747;
 /* header related style */
 .header{
   background-color: white;
-  background-image:url('../images/header_bg.png') ;
+  background-image:url('../images/header_bg.png')50%;
 background-repeat:no-repeat ;
-background-position: bottom right;
+background-position:bottom right;
 }
 .banner{
 
@@ -98,12 +98,17 @@ justify-content: space-between;
 }
 .banner-title{
   font-size: 85px;
-  font-weight:700;
+  font-weight:700px;
   margin-top:5px ;
   margin-bottom: 20px;
 }
 /* main section stye */
+main{
+max-width: 1140px;
+margin: 0 auto ;
 
+
+}
 
 
 
@@ -116,4 +121,12 @@ justify-content: space-between;
   border-radius: 10px;
   background: #FFF8F3;
 margin:  130px 0;
+}
+.about-info-container{
+display: flex;
+justify-content: space-around;
+
+}
+.about-info{
+  text-align: center;
 }
